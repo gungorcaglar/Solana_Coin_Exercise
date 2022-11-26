@@ -18,6 +18,7 @@ import * as fs from "fs"
 
 
 async function main() {
+  
   const connection = new web3.Connection(web3.clusterApiUrl("devnet"))
   const user = await initializeKeypair(connection)
 
